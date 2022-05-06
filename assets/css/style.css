@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.containerTT{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header-container{
+    flex-basis: 30%;
+}
+
+.header__logo{
+    margin-bottom: 25px;
+}
+
+.header__logo img{
+    max-width: 26px;
+}
+
+.header__logo figcaption{
+    display: none;
+}
+
+.header__menuItem{
+    margin-bottom: 25px;
+}
+
+.header__menuItem img{
+    width: 26px;
+}
+
+.header__menuItem a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: super;
+}
+
+.header__menuItem a:hover{
+    color: #1da1f2;
+    font-weight: bold;
+}
+
+.main__container{
+    flex-basis: 70%;
+    border-left: 1px solid #e7ecf0 ;
+    border-right: 1px solid #e7ecf0 ;
+}
+
+.main__titulo{
+    padding: 10px 30px;
+}
+
+.main__form{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+
+.main__form textarea{
+    display: block;
+    width: 100%;
+    height: 70px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.btnTT{
+    background-color:#1D9BF0;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: none;
+    transition: all 0.5s;
+}
+
+/*.btnTT:hover{
+    background-color: green;
+    transition: all 0.5s;
+}*/
+
+.btnTT:disabled{
+    transition: all 0.5s;
+    opacity: .9;
+    cursor: default;
+    background-color: #e7ecf0;
+}
+
+/*.btnTT:disabled:hover{
+    transition: all 0.5s;
+    background-color: red;
+}*/
+
+.main__listTT{
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.main__TT{
+    padding: 20px 30px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.main__contentTT{
+    margin-left: 10px ;
+}
+
+.main__contentTT h2{
+    display: inline-block;
+}
+
+.main__contentTT span{
+    display: inline-block;
+    color: #828282;
+}
+
+.main__contentTT p{
+    margin-top: 15px;
+    color: #333333;
+}
