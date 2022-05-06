@@ -20,6 +20,7 @@ body{
 
 .header__logo{
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .header__logo img{
@@ -54,6 +55,8 @@ body{
     flex-basis: 70%;
     border-left: 1px solid #e7ecf0 ;
     border-right: 1px solid #e7ecf0 ;
+    border-top: 1px solid #e7ecf0;
+    margin-top: 25px;
 }
 
 .main__titulo{
