@@ -126,6 +126,7 @@ body{
 
 .main__contentTT h2{
     display: inline-block;
+    margin-right: 9px;
 }
 
 .main__contentTT span{
